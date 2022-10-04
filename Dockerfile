@@ -18,3 +18,6 @@ EXPOSE 8089
 
 #if have image file, run image but not have image, throw error
 CMD ["node", "server.js"]
+
+# port 3010 linked 8089
+#docker run -p 3010:8089 [image]
