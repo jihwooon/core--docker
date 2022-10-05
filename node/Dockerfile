@@ -6,7 +6,7 @@ WORKDIR /app
 
 # [.]. : Host file system
 # .[.] : image/containser file system
-COPY . /app
+COPY .. /app
 
 RUN npm install
 
