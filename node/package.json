@@ -9,7 +9,7 @@
     "body-parser": "1.19.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": " server.js"
   },
   "description": ""
 }
