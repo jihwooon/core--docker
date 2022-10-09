@@ -8,10 +8,10 @@ WORKDIR /app
 # .[.] : image/containser file system
 COPY .. /app
 
-RUN npm install
 
 ## when is created image, container is started based on the image.
 #RUN node server.js
+RUN npm install
 
 # listen port
 EXPOSE 8089
