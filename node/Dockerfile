@@ -2,6 +2,7 @@
 FROM node
 
 ## doker working dir
+## working RUN, CMD, ENTRYPOINT의 명령이 실행될 디렉터리를 설정합니다.
 WORKDIR /app
 
 # [.]. : Host file system
